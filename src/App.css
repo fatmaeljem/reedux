@@ -1,0 +1,50 @@
+
+
+
+#comp{
+color: rgb(155, 73, 73);
+text-decoration: line-through;
+background-color: rgb(39, 170, 35);
+}
+.lista{
+  padding:6%;
+background-color:rgb(255, 255, 255);
+width: 300px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+align-items: center;
+flex-direction: column;
+border-radius: 10px 10px 10px 10px ;
+margin-top: 25px;
+color: rgb(208, 211, 23);
+}
+.tache{
+
+background-color: rgb(49, 62, 92);
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 200px;
+height: 55px;
+margin: 15px;
+border-radius: 10px 10px 10px 10px ;
+
+}
+.tache button{
+width: 24px;
+height: 24px;
+background-color: unset;
+border: unset;
+}
+body{
+color: white;
+background-color: rgb(107, 71, 107);
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+
+}
+.edit{
+margin: 25px;
+} 
